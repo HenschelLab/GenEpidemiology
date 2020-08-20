@@ -31,7 +31,7 @@ output="../auspice/covid19uae_${spec}.json"
 
 augur tree --alignment aligned_${spec}.fasta --output tree_raw_${spec}.nwk --nthreads 60 
 
-augur refine  --tree $tree0 --alignment $ali --output-tree $tree --metadata $metadata --output-node-data $branch --timetree --coalescent opt
+augur refine  --tree $tree0 --alignment $ali --output-tree $tree --metadata $metadata --output-node-data $branch --timetree --coalescent opt --root MN908947
 ## ancestral
 augur ancestral --tree $tree --alignment $ali --output-node-data $nt --inference "joint"
 
