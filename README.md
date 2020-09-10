@@ -1,4 +1,4 @@
-#Genomic Epidemiology in UAE
+# Genomic Epidemiology in UAE
 
 These scripts where used to run SARS-Cov2 transmission analysis based on full genomes from 
 local samples as well 
